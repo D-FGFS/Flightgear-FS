@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+	<key>CFBundleIconFile</key>
+	<string>FlightGear.icns</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleGetInfoString</key>
+	<string>FlightGear, the open-source flight simulator, 2018.2.2. ©1996-2018, The FlightGear Project</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>fgfs</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.flightgear.FlightGear</string>
+	<key>CFBundleVersion</key>
+	<string>2018.2.2</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2018.2.2</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.7.0</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>©1996-2018, The FlightGear Project</string>
+
+    <!-- when launched via LaunchServices, run the launcher GUI -->
+    <key>LSEnvironment</key>
+    <dict>
+        <key>FG_LAUNCHER</key>
+        <string>1</string>
+    </dict>
+</dict>
+</plist>
+
